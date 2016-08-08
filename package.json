@@ -1,6 +1,7 @@
 {
   "jspm": {
     "devDependencies": {
+      "Hypercubed/systemjs-plugin-html": "github:Hypercubed/systemjs-plugin-html@^0.0.8",
       "typescript": "npm:typescript@^1.6.2"
     }
   }

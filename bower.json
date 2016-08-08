@@ -1,0 +1,16 @@
+{
+  "name": "polymerts-published-element",
+  "description": "",
+  "main": "",
+  "authors": [
+    "tpluscode <tpluscode@users.noreply.github.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "polymer-ts": "nippur72/PolymerTS#~0.1.28"
+  }
+}
