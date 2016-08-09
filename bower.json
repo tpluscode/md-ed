@@ -16,6 +16,7 @@
     "polymer-ts": "nippur72/PolymerTS#~0.1.28",
     "paper-tabs": "polymerelements/paper-tabs#~1.6.2",
     "iron-pages": "polymerelements/iron-pages#~1.0.8",
-    "paper-input": "polymerelements/paper-input#~1.1.17"
+    "paper-input": "polymerelements/paper-input#~1.1.17",
+    "marked": "~0.3.6"
   }
 }
