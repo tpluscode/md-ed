@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "build": "jspm bundle-sfx src/md-ed - marked dist/build.js --format umd --globals \"{'marked': 'marked'}\""
+  },
   "jspm": {
+    "dependencies": {
+      "marked": "npm:marked@^0.3.6"
+    },
     "devDependencies": {
       "Hypercubed/systemjs-plugin-html": "github:Hypercubed/systemjs-plugin-html@^0.0.8",
       "typescript": "npm:typescript@^1.6.2"
