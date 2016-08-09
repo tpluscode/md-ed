@@ -1,6 +1,6 @@
 import './md-ed.html!'
 import {DefaultMdBehavior} from './DefaultMdBehavior';
-import 'marked';
+import * as marked from 'marked';
 
 @component('md-ed')
 @behavior(DefaultMdBehavior)
@@ -18,7 +18,7 @@ class MdEd extends polymer.Base {
 
     @observe('markdown')
     _markdownChanged(md) {
-        this._setMdHtml(marked(md));
+        this._setMdHtml(marked.default(md));
     }
 }
 

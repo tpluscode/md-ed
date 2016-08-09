@@ -36,7 +36,7 @@ $__System.register("1", ["2", "3", "4"], function(exports_1, context_1) {
         else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
         return c > 3 && r && Object.defineProperty(target, key, r), r;
     };
-    var DefaultMdBehavior_1;
+    var DefaultMdBehavior_1, marked;
     var MdEd;
     return {
         setters:[
@@ -44,7 +44,9 @@ $__System.register("1", ["2", "3", "4"], function(exports_1, context_1) {
             function (DefaultMdBehavior_1_1) {
                 DefaultMdBehavior_1 = DefaultMdBehavior_1_1;
             },
-            function (_2) {}],
+            function (marked_1) {
+                marked = marked_1;
+            }],
         execute: function() {
             MdEd = (function (_super) {
                 __extends(MdEd, _super);
@@ -55,7 +57,7 @@ $__System.register("1", ["2", "3", "4"], function(exports_1, context_1) {
                     this.selectedTab = 0;
                 };
                 MdEd.prototype._markdownChanged = function (md) {
-                    this._setMdHtml(marked(md));
+                    this._setMdHtml(marked.default(md));
                 };
                 __decorate([
                     property({ notify: true })
