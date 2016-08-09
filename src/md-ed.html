@@ -1,0 +1,15 @@
+<dom-module id="md-ed">
+    <template>
+        <paper-tabs selected="{{selectedTab}}">
+            <paper-tab>Edit</paper-tab>
+            <paper-tab>Preview</paper-tab>
+        </paper-tabs>
+
+        <iron-pages selected="[[selectedTab]]">
+            <div>
+                <paper-textarea value="{{markdown}}"></paper-textarea>
+            </div>
+            <div inner-H-T-M-L="{{mdHtml}}"></div>
+        </iron-pages>
+    </template>
+</dom-module>
