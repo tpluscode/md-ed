@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "marked": "github:Microsoft/vscode-docs/scripts/typings/marked/marked.d.ts#7705250e5cd6e4e3a60b5a9d36dec7bec64c864c"
+  }
+}

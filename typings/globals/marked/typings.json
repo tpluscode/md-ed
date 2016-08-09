@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/Microsoft/vscode-docs/7705250e5cd6e4e3a60b5a9d36dec7bec64c864c/scripts/typings/marked/marked.d.ts",
+    "raw": "github:Microsoft/vscode-docs/scripts/typings/marked/marked.d.ts#7705250e5cd6e4e3a60b5a9d36dec7bec64c864c",
+    "typings": "https://raw.githubusercontent.com/Microsoft/vscode-docs/7705250e5cd6e4e3a60b5a9d36dec7bec64c864c/scripts/typings/marked/marked.d.ts"
+  }
+}
