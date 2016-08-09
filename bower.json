@@ -9,8 +9,13 @@
   "moduleType": [],
   "homepage": "",
   "private": true,
-  "devDependencies": {},
+  "devDependencies": {
+    "iron-demo-helpers": "polymerelements/iron-demo-helpers#~1.2.4"
+  },
   "dependencies": {
-    "polymer-ts": "nippur72/PolymerTS#~0.1.28"
+    "polymer-ts": "nippur72/PolymerTS#~0.1.28",
+    "paper-tabs": "polymerelements/paper-tabs#~1.6.2",
+    "iron-pages": "polymerelements/iron-pages#~1.0.8",
+    "paper-input": "polymerelements/paper-input#~1.1.17"
   }
 }
