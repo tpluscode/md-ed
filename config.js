@@ -14,7 +14,8 @@ System.config({
   },
 
   map: {
-    "Hypercubed/systemjs-plugin-html": "github:Hypercubed/systemjs-plugin-html@0.0.8",
+    "html": "github:Hypercubed/systemjs-plugin-html@0.0.8",
+    "marked": "npm:marked@0.3.6",
     "typescript": "npm:typescript@1.8.10",
     "github:Hypercubed/systemjs-plugin-html@0.0.8": {
       "webcomponentsjs": "github:webcomponents/webcomponentsjs@0.7.22"
