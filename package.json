@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "build": "jspm bundle-sfx src/md-ed - marked - src/bower-deps dist/build.js --format umd --globals \"{'marked': 'marked', 'src/bower-deps.ts': 'MdEdDeps'}\""
+    "build": "jspm bundle-sfx src/md-ed - marked dist/build.js --format umd --globals \"{'marked': 'marked'}\""
   },
   "jspm": {
-    "main": "dist/build.js",
+    "main": "md-ed.js",
     "format": "cjs",
     "dependencies": {
       "marked": "npm:marked@^0.3.6"
