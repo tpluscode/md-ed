@@ -82,11 +82,6 @@ $__System.register("1", ["2", "3", "4"], function(exports_1, context_1) {
 System.register('src/md-ed.html!github:Hypercubed/systemjs-plugin-html@0.0.8.js', [], false, function() {});
 })
 (function(factory) {
-  if (typeof define == 'function' && define.amd)
-    define(["marked"], factory);
-  else if (typeof module == 'object' && module.exports && typeof require == 'function')
-    module.exports = factory(require("marked"));
-  else
-    factory(marked);
+  factory(marked);
 });
 //# sourceMappingURL=build.js.map
