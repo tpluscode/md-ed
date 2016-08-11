@@ -1,0 +1,15 @@
+<html><head><meta charset="UTF-8"></head><body><div hidden="" by-vulcanize=""><dom-module id="md-ed" assetpath="../src/">
+    <template>
+        <paper-tabs selected="{{selectedTab}}">
+            <paper-tab>Edit</paper-tab>
+            <paper-tab>Preview</paper-tab>
+        </paper-tabs>
+
+        <iron-pages selected="[[selectedTab]]">
+            <div>
+                <paper-textarea value="{{markdown}}"></paper-textarea>
+            </div>
+            <div inner-h-t-m-l="{{mdHtml}}"></div>
+        </iron-pages>
+    </template>
+</dom-module></div></body></html>

@@ -3,7 +3,7 @@
     "build": "jspm bundle-sfx src/md-ed - marked dist/build.js --format umd --globals \"{'marked': 'marked'}\""
   },
   "jspm": {
-    "main": "md-ed.js",
+    "main": "jspm/md-ed.js",
     "format": "cjs",
     "dependencies": {
       "marked": "npm:marked@^0.3.6"
