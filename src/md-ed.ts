@@ -1,3 +1,4 @@
+import './bower-deps';
 import './md-ed.html!'
 import {DefaultMdBehavior} from './DefaultMdBehavior';
 import * as marked from 'marked';
