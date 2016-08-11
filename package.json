@@ -4,7 +4,7 @@
   },
   "jspm": {
     "main": "md-ed.js",
-    "format": "cjs",
+    "format": "es6",
     "dependencies": {
       "marked": "npm:marked@^0.3.6"
     },
