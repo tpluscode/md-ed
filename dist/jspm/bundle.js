@@ -76,4 +76,4 @@ System.register("src/md-ed.ts", ["src/md-ed.html!github:Hypercubed/systemjs-plug
 });
 
 System.register('src/md-ed.html!github:Hypercubed/systemjs-plugin-html@0.0.8.js', [], false, function() {});
-//# sourceMappingURL=build.js.map
+//# sourceMappingURL=bundle.js.map

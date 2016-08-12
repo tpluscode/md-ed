@@ -1,5 +1,5 @@
 import './src/bower-deps'
-import './jspm/build.html!'
-import './jspm/build'
+import './dist/jspm/bundle.html!'
+import './dist/jspm/bundle'
 
 System.import('src/md-ed.ts');
