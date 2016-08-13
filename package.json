@@ -2,7 +2,7 @@
   "scripts": {
     "build": "npm run build-bower && npm run build-jspm",
     "build-bower": "jspm bundle-sfx src/md-ed - marked dist/bower/build.js --format global --globals \"{'marked': 'marked'}\"",
-    "build-jspm": "jspm bundle src/md-ed - marked dist/jspm/bundle.js --format umd --globals \"{'marked': 'marked'}\""
+    "build-jspm": "jspm bundle src/md-ed - marked dist/jspm/bundle.js"
   },
   "jspm": {
     "main": "md-ed.js",
